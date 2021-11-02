@@ -1,0 +1,16 @@
+﻿Instructions: There are 3 questions followed by 3 SQL Queries. The goal is to correct the code if it contains an error. Edit the code to make changes if needed and send a pull request. 
+
+
+1)To find the total number of employees in a company:
+
+
+SELECT *(EmployeeNumber)
+From employee;
+
+
+2) To find the first and last names of employees whose last name starts with “Jo”.
+
+
+SELECT first_name, last_name
+From employee
+Where last_name like “Jo%”;
